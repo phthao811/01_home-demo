@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300&display=swap');
+@font-face {
+    font-family: 'Soligant';
+    src: url('path/to/font/soligant.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    background-color: #f8f6f4;
+}
+
+h1{
+    font-family: 'Soligant', sans-serif!important;
+    font-size: 100px;
+    font-weight: 400;
+    line-height: 100px;
+    letter-spacing: 0em;
+}
+ul{
+    list-style-type: none; 
+}
+button{
+    padding: 0.5rem 1.5rem;
+    background-color: transparent;
+    border: 2px solid #FFFFFF;
+    color: white;
+}
+/* header */
+.feature-header{
+    border-bottom: 1px solid grey;
+}
+.feature-header div input{
+    border: none!important;
+}
+.banner_header{
+background-image: url("images\Rectangle7.png");
+  background-size: cover;
+  background-position: center; 
+  background-repeat: no-repeat; 
+}
+
+.banner_header-content{
+   position: absolute;
+   z-index: 1;
+   color: white;
+   max-width: 700px;
+   padding: 0 8rem;
+}
+.banner_header-content p{
+    padding: 1rem 0;
+}
+/* navbar */
+.header--nav-buttons p{
+    margin-bottom:0!important;
+}
+.nav-bar a:hover{
+    text-decoration: underline!important;
+}
+/* banner header*/
+.banner-header img{
+    position: relative;
+    width: 100%;
+}
+/* banner grid */
+.banner-grid img{
+    width: 100%;
+}
+
+.banner_grid-content{
+    position: absolute;
+    color: white;
+    padding: 2rem;
+    max-width: 26rem;
+}
+.title_banner{
+    font-family: Soligant;
+    font-size: 42px;
+    font-weight: 400;
+    line-height: 48px;
+}
+/* collection product */
+.collection-product{
+    padding-top: 3rem
+}
+.heading-collection,
+.product_item-content{
+   text-align: center;
+}
+.heading-collection p{
+    font-family: 'Mulish', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0.24em;
+    color: #DAA14C;
+    margin-bottom: 0;
+}
+.heading-collection h2{
+    font-weight: 400;
+    line-height: 70px;
+    letter-spacing: 0em;
+    text-align: center;
+    padding-bottom: 3rem;
+}
+.product_item-content .product-item_type{
+    font-family: Mulish;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #DAA14C;
+}
+
+/* gift_block */
+.gift_block-detail{
+    text-align: center;
+}
+.gift_block-detail h3{
+    font-family: Soligant;
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0.01em;
+    text-align: center;
+}
+/* banner */
+.banner-content{
+    position: absolute;
+    text-align: center;
+    color: white;
+    max-width: 765px;
+
+}
+.banner .img-banner{
+    width: 100%;
+}
+
+/* contact */
+.contact_block-content{
+    text-align: center;
+}
+.contact_block-form input{
+    max-width: 400px;
+    border-radius: 0!important;
+}
+.contact_block-form button{
+    background-color: black;
+    color: white;
+    height: 3rem;
+    width: 10rem;
+}
+.contact_block-policy{
+    text-align: center;
+}
+/* footer */
+.main-footer{
+    text-align: center;
+}
